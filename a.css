@@ -1,0 +1,227 @@
+body,ul
+{
+    margin:0;
+    padding: 0;
+    color: #fff;
+    background-color: rgb(244, 244, 244);
+    color: black;
+}
+/* body
+{
+    overflow: hidden;
+} */
+li
+{
+    list-style: none;
+}
+.topNavBar
+{
+    background: url("img/Home.png") no-repeat center center;
+    background-size: cover;
+    min-height: 504px;
+    background-size:100% 100%;
+    z-index: 10;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.clearfix::after
+{
+    content: '';
+    display: block;
+    clear:both;
+}
+.topNavBar nav
+{
+    float: right;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+.topNavBar nav li
+{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.topNavBar nav li a:hover
+{
+    color: rgb(100, 216, 204);
+}
+.topNavBar nav li a
+{
+    font-size: 15px;
+    font-family: Questrial;
+}
+.topNavBar nav ul #search
+{
+    background:rgb(25, 44, 59);
+}
+/* .banner
+{
+    z-index: -1;
+    background: url(img/background.png) no-repeat center center;
+    min-height:510px;
+    background-size:100% 100%;
+    margin-top: -18px;
+} */
+.card
+{
+    max-width: 747px;
+    min-height: 410px;
+    border: 10px solid rgb(211, 213, 216);
+    margin-top: -305px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgb(25, 44, 59);
+}
+.card .title
+{
+    color: rgb(100, 216, 204);
+    display:inline-block;
+    font-size:32px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 104px;
+    left: 48px;
+}
+.card .word
+{
+    font-size: 7px;
+    color: rgb(78, 92, 103);
+    position: absolute;
+    top: 162px;
+    left: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thread1
+{
+    position: absolute;
+    top: 150px;
+    left: 48px;
+    width: 80px;
+    display: inline-block;
+    border-bottom:2px solid rgb(100, 216, 204);
+}
+.thread2
+{
+    position: absolute;
+    top: 150px;
+    left: 128px;
+    width: 180px;
+    display: inline-block;
+    border-bottom: 2px solid rgb(86, 99, 110);
+}
+.cardDown
+{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+.circle1
+{
+    margin-right: 14px;
+}
+.circle
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(198, 200, 204);
+    border-radius: 50%;
+    box-shadow:0.5px 0px 0px 0.5px rgb(78, 92, 103)
+}
+.circle:hover
+{
+    background-color: rgb(100, 216, 204);
+}
+.circle2
+{
+    margin-right: 14px;
+}
+.cardDown h1
+{
+    font-size: 14px;
+    color: rgb(144, 153, 160);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardDownWord
+{
+    margin-top: 45px;
+}
+.waveLine
+{
+    content: '';
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 0.5em;
+    background:
+    linear-gradient(135deg, transparent, transparent 45%, #c9c5c5, transparent 55%, transparent 100%),
+    linear-gradient(45deg, transparent, transparent 45%, #c9c5c5, transparent 55%, transparent 100%);
+    background-size: 1.5em 1.5em;
+    background-repeat: repeat-x, repeat-x;
+    box-shadow:5px 0px 0px 0px rgb(78, 92, 103)
+}
+.mainContent
+{
+    margin-top: 60px;
+}
+.pattern
+{
+    display: inline-block;
+    width: 80px;
+    border-top: 2px solid rgb(226, 227, 228);
+    border-bottom: 3.5px solid rgb(201, 205, 208);
+}
+ .firstService
+{
+    float: left;
+} 
+.secondService
+{
+   float: left;
+   margin-left: 110px;
+}
+.thirdService
+{
+    float: right;
+}
+.mainWrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.anotherPattern
+{
+    display:block;
+    width: 248px;
+    border-top: 2px solid rgb(226, 227, 228);
+    border-bottom: 3.5px solid rgb(201, 205, 208);
+}
+#title
+{
+    text-align: center;
+    margin-left: 0;
+}
+.mainContent h1
+{
+    font-size: 14px;
+    color: rgb(144, 153, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+}
+.mainContent .button
+{
+    text-align:center;
+    margin-top: 20px;
+}
+.mainContent .button button
+{
+    width: 120px;
+    height:40px; 
+    background-color: rgb(11, 199, 180);
+    border-radius: 5px;
+    color: white;
+}
